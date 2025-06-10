@@ -146,17 +146,18 @@
  Particulary, We evaluated the results of different Machine Learning models with CARE Score to detect early faults in wind turbine. 
  
  The CARE score is a comprehensive evaluation method that considers four key aspects of a high-quality early fault detection model for predictive maintenance:
-- Coverage: The ability to detect many anomalies
-- Accuracy: The ability to correctly recognize normal behavior
-- Reliability: The ability to minimize false alarms
-- Earliness: The ability to detect anomalies as early as possible
+Coverage (ability to detect many anomalies), Accuracy (ability to correctly recognize normal behavior), Reliability (ability to minimize false alarms)
+and Earliness (ability to detect anomalies as early as possible).
 
 Key Findings:
-- The Isolation Forest and Autoencoder models likely have the highest CARE scores (given the higher coverage, accuracy, and reliability values)
-- LSTM-based models (LSTM Autoencoder, CNN-LSTM Autoencoder) may have mixed performance, with some showing decent reliability but lower coverage
-- The worst-performing models (CARE scores near 0.00) fail in either detecting anomalies or generate too many false alarms.
+
 </p>
-        </div>
+		  <ul>
+			<li>The Isolation Forest and Autoencoder models likely have the highest CARE scores (given the higher coverage, accuracy, and reliability values)</li>
+			<li>LSTM-based models (LSTM Autoencoder, CNN-LSTM Autoencoder) may have mixed performance, with some showing decent reliability but lower coverage</li>
+			<li>The worst-performing models (CARE scores near 0.00) fail in either detecting anomalies or generate too many false alarms.</li>
+          </ul>
+		</div>
         <div class="project">
           <h3>Project 2: Offshore Wind GIS Analysis</h3>
           <img src="./normandy.jpg" alt="GIS Project">
